@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react_rest/static/css/main.5524d087.css",
+    "main.js": "/react_rest/static/js/main.8e4efc55.js",
+    "static/media/background.jpg": "/react_rest/static/media/background.7fffe8e8f7d51b302ad6.jpg",
+    "static/media/Ring.gif": "/react_rest/static/media/Ring.66f8a08eab1582354294.gif",
+    "index.html": "/react_rest/index.html",
+    "main.5524d087.css.map": "/react_rest/static/css/main.5524d087.css.map",
+    "main.8e4efc55.js.map": "/react_rest/static/js/main.8e4efc55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5524d087.css",
+    "static/js/main.8e4efc55.js"
+  ]
+}
