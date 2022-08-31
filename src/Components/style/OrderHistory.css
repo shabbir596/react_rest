@@ -1,0 +1,58 @@
+#OrderHistory.main{
+    margin-top: 0rem;
+  }
+
+@media screen and (max-width: 575px) {
+  #OrderHistory .main{
+    margin-top: 3rem;
+  }
+}
+
+#OrderHistory .top-badge {
+  top: 6px !important;
+  font-size: 10px !important;
+}
+
+
+
+@media (max-width: 365px){
+  #OrderHistory .history li{
+    font-size: 14px;
+  }
+}
+@media (min-width: 365px){
+  #OrderHistory .history li{
+    font-size: 14px;
+  }
+}
+@media (min-width: 495px) { 
+  #OrderHistory .history li{
+    font-size: 15px;
+  }
+ }
+
+@media (min-width: 768px) { 
+  #OrderHistory .history li{
+    font-size: 16px;
+  }
+ }
+
+ #OrderHistory .item_collaps span i{
+   transition: all 0.5s;
+ }
+#OrderHistory .item_collaps:not(.collapsed) span i{
+  transform: rotate(180deg);
+}
+
+#OrderHistory .history li{
+  padding: 0.55rem;
+  margin-top: 0.35rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#OrderHistory .history li:last-child{
+  margin-top: 0;
+  box-shadow: none;
+  background-color: transparent;
+}

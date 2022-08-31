@@ -1,0 +1,92 @@
+
+.bg-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.scan_false{
+    border: none;
+}
+.avater{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;  
+    font-size: 34px;
+    color: #0E4719;
+}
+.main-logo .avater{
+    font-size: 10em;
+    width: 200px;
+    height: 200px;
+}
+.scan_true {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.scan_btn {
+  background: #0e4719;
+  border-radius: 999px;
+  box-shadow: #0e4719 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 10px 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.scan_btn:hover{
+    background: #0e4719d8;
+    box-shadow: rgba(14, 71, 25, 0.847) 0 10px 20px -10px;
+}
+.about_btn {
+  background: #574b2f;
+  border-radius: 999px;
+  box-shadow: #574b2f 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 7px 7px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.about_btn:hover{
+    background: rgb(87, 75, 47, .857);
+    box-shadow: rgb(87, 75, 47, .857)0 10px 20px -10px;
+}
